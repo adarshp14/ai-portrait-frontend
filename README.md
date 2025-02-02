@@ -1,20 +1,24 @@
-# Indian Tax Calculator 2025
+# AI Portrait Studio
 
-A Next.js-based tax calculator designed for Indian residents to compute their income tax for the financial year 2025. This project supports both old and new tax regimes, providing a seamless and interactive experience for users.
+AI Portrait Studio is a Next.js-based frontend application that enables users to generate stunning AI-created portraits. The application allows customization of prompts, styles, backgrounds, lighting, poses, and quality settings to create unique AI-generated images.
 
 ## Features
 
-- Calculates income tax based on the latest Indian tax slabs for FY 2025.
-- Supports both old and new tax regimes.
-- Responsive and modern UI using Tailwind CSS.
-- Built with server-side rendering (SSR) and static site generation (SSG) for optimal performance.
+- Fully customizable AI-generated portraits.
+- Responsive and interactive UI built with modern web technologies.
+- Server-side rendering (SSR) and static site generation (SSG) for optimal performance.
+- Deployed with Vercel for fast and reliable hosting.
 
 ## Tech Stack
 
 - **Next.js**: React-based framework for server-side rendering and static site generation.
-- **TypeScript**: For type-safe and robust development.
+- **TypeScript**: Ensures robust and type-safe development.
 - **Tailwind CSS**: For efficient and customizable styling.
-- **PostCSS**: For CSS transformations.
+- **Vercel**: For deployment and hosting.
+
+## Live Demo
+
+Check out the live application here: [AI Portrait Studio](https://ai-portrait-frontend.vercel.app)
 
 ## Getting Started
 
@@ -27,8 +31,8 @@ A Next.js-based tax calculator designed for Indian residents to compute their in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/adarshp14/IndianTaxCalculator2025.git
-   cd IndianTaxCalculator2025
+   git clone https://github.com/adarshp14/AI-Portrait-Studio.git
+   cd AI-Portrait-Studio
    ```
 2. Install dependencies:
    ```bash
@@ -54,7 +58,7 @@ A Next.js-based tax calculator designed for Indian residents to compute their in
    npm start
    ```
 
-### Folder Structure
+## Folder Structure
 
 - **`app/`**: Contains app-level configurations and Next.js pages.
 - **`components/`**: Reusable UI components.
@@ -62,7 +66,6 @@ A Next.js-based tax calculator designed for Indian residents to compute their in
 - **`lib/`**: Utility functions and external libraries.
 - **`public/`**: Static assets such as images and icons.
 - **`styles/`**: Global and component-specific styles using Tailwind CSS.
-- **`utils/`**: Helper functions.
 
 ### Scripts
 
@@ -78,6 +81,10 @@ Contributions are welcome! Please follow these steps:
 2. Create a new feature branch (`feature/your-feature-name`).
 3. Commit your changes.
 4. Push the branch and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
