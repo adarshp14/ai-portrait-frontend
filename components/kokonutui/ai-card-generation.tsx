@@ -69,12 +69,12 @@ export default function AICardGeneration() {
         throw { message: "Portrait description is too long. Please keep it under 500 characters", code: "PROMPT_TOO_LONG" };
       }
 
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/generate`, {
+      const response = await fetch("https://ai-portrait-backend-1.onrender.com/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: fullPrompt }),
       });
-      
+
       if (!response.ok) {
         const errorData = await response.json().catch(() => null);
         throw {
